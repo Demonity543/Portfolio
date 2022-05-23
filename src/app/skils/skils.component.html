@@ -1,0 +1,13 @@
+<div >
+  <p>{{ title | uppercase }}</p>
+
+  <ul >
+    <li *ngFor="let it of skill.skils">
+      <p>{{ it }}</p>
+    </li>
+    <p>Email: {{ skill.email }}</p>
+   <p>School: {{skill.school}}</p>
+   <a href="{{ skill.github }}" target="_blank">Github</a>
+  </ul>
+  
+</div>
